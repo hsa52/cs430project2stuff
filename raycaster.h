@@ -108,7 +108,7 @@ void raycast(Object* objects,char* picture_height,char* picture_width,char* outp
     int m =atoi(picture_height);
     int n = atoi(picture_width);
     double pixheight =h/m;
-    double pixwidth =w/m;
+    double pixwidth =w/n;
 
     //creates the pixel array
     Pixel p[m*n];
